@@ -1,88 +1,52 @@
-# Billapp backend
+# Billed — HR SaaS App (Backend)
 
-================ FR ====================
+REST API for a HR web application, as part of a front-end development training program.
 
-## Comment lancer l'API en local:
+> This is the **backend** repository. It provides the API consumed by the [frontend repository](https://github.com/OpenClassrooms-Student-Center/Billed-app-FR-Front).
 
-### Cloner le projet:
-```
+## Project Overview
+
+This project was completed as part of a structured front-end development curriculum. The backend was provided as part of a debugging and testing exercise on a HR SaaS app used to manage employee expense reports.
+
+The frontend work focused on debugging the application and writing a comprehensive test suite (unit tests, integration tests, and a manual end-to-end test plan).
+
+## Tech Stack
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+
+## Context
+
+This project is part of the **OpenClassrooms Front-End Developer** curriculum. It introduces testing and debugging as core developer skills, shifting the focus from building new features to ensuring the quality and reliability of existing code.
+
+---
+
+## Getting Started
+
+Clone the repository:
+
+```bash
 git clone https://github.com/OpenClassrooms-Student-Center/Billed-app-FR-Back.git
-```
-
-### Acceder au repertoire du projet :
-```
 cd Billed-app-FR-Back
 ```
 
-### Installer les dépendances du projet :
+Install dependencies:
 
-```
+```bash
 npm install
 ```
 
-### Lancer l'API :
+Start the API:
 
-```
+```bash
 npm run run:dev
 ```
 
-### Accéder à l'API :
+The API is available at: `http://localhost:5678`
 
-L'api est accessible sur le port `5678` en local, c'est à dire `http://localhost:5678`
+## Default Accounts
 
-## Utilisateurs par défaut:
-
-### administrateur : 
-```
-utilisateur : admin@test.tld 
-mot de passe : admin
-```
-### employé :
-```
-utilisateur : employee@test.tld
-mot de passe : employee
-```
-
-
-================ EN ====================
-
-
-## How to run the API locally :
-
-
-### Clone the projet:
-```
-git clone https://github.com/OpenClassrooms-Student-Center/Billed-app-FR-Back.git
-```
-
-### Go to the project directory :
-```
-cd Billed-app-FR-Back
-```
-
-### Install project dependancies :
-
-```
-npm install
-```
-
-### Run the API :
-
-```
-npm run:dev
-```
-
-### Access to the PAI :
-
-The API is locally available on port `5678`, go to `http://localhost:5678`
-
-### administrateur : 
-```
-utilisateur : admin@company.tld 
-mot de passe : admin
-```
-### employé :
-```
-utilisateur : employee@company.tld
-mot de passe : employee
-```
+| Role | Email | Password |
+|---|---|---|
+| Admin | admin@test.tld | admin |
+| Employee | employee@test.tld | employee |
